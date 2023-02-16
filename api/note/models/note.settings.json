@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "name": "note",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
