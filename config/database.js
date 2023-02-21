@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', '127.0.0.1'),
+        host: env('DATABASE_HOST', 'containers-us-west-22.railway.app'),
         srv: env.bool('DATABASE_SRV', false),
-        port: env.int('DATABASE_PORT', 27017),
+        port: env.int('DATABASE_PORT', 7206),
         database: env('DATABASE_NAME', 'notes'),
         username: env('DATABASE_USERNAME', null),
         password: env('DATABASE_PASSWORD', null),
