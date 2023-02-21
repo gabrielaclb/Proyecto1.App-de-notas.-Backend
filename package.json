@@ -7,7 +7,7 @@
     "develop": "strapi --openssl-legacy-provider develop",
     "start": "strapi --openssl-legacy-provider start",
     "build": "strapi --openssl-legacy-provider build",
-    "strapi": "strapi"
+    "strapi": "strapi --openssl-legacy-provider "
   },
   "devDependencies": {},
   "dependencies": {
