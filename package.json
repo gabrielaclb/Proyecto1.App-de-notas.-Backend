@@ -5,8 +5,8 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start NODE_OPTIONS='--openssl-legacy-provider'",
-    "build": "strapi build NODE_OPTIONS='--openssl-legacy-provider'",
+    "start": "strapi SET NODE_OPTIONS=--openssl-legacy-provider start",
+    "build": "strapi SET NODE_OPTIONS=--openssl-legacy-provider build",
     "strapi": "strapi"
   },
   "devDependencies": {},
